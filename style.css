@@ -33,7 +33,7 @@ main{
     background-color: rgb(57, 57, 57);
     padding: 5px;
     border-radius: 5px;
-    font-size: 10px;
+    font-size: 20px;
 }
 
 .container{
@@ -95,6 +95,10 @@ footer{
     text-align: center;
 }
 
+.center-icon .icon-footer{
+    margin-right: 30px;
+}
+
 #green-icon{
     color: lime;
 }
@@ -108,4 +112,13 @@ footer{
     height: 100% ;
     max-width: 200px;
     font-size: 25px;
+}
+
+
+.arrow{
+    color: white;
+    justify-self: center;
+    align-self: center;
+    padding-right: 20px;
+    font-size: 20px;
 }
