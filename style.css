@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family:sans-serif
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    background-color: black;
+    height: 100vh;
+    padding-inline: 30px;
+    padding-top: 70px;
+}
+
+.webcam{
+position:relative;
+/* height: 200px;
+width: calc( 100% / 6 - 30px ); */
+}
