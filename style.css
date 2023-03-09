@@ -31,11 +31,13 @@ html{
 }
 
 .container{
-    height: 20vh;
-    width: 70%; 
+    height: 100vh;
+    width: 100%; 
     display: flex;
     justify-content: center;
     flex-wrap: wrap;  
+    overflow: scroll;
+    margin:0 auto;
 } 
    
 
